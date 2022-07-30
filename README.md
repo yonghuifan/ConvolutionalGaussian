@@ -22,3 +22,6 @@ BNN: number of neighborhood, a hyperparameter to be set manually, usually from 2
 Some codes are for visualization, users can comment them off.
 
 My kernel function is implemented in /toolbox/@Mesh/GetGPLmk_Fan.m 
+
+Please cite:
+Fan Y, Wang Y. Convolutional Bayesian Models for Anatomical Landmarking on Multi-Dimensional Shapes. Med Image Comput Comput Assist Interv. 2020;12264:786-796. doi: 10.1007/978-3-030-59719-1_76. Epub 2020 Sep 29. PMID: 34291235; PMCID: PMC8291336.
