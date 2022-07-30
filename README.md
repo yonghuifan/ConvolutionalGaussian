@@ -1,5 +1,5 @@
 Gaussian Process based Landmarking
-By Yonghui Fan, -4/12/2021
+By Yonghui Fan, -7/30/2022
 
 landmark_<dataset name>.m is the code for landmarking of certain datasets.
 
