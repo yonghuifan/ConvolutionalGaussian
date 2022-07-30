@@ -1,0 +1,15 @@
+clear;close all;
+
+start_path = 'G:\OASIS\pos';
+
+for n = 1:52
+    tic
+    left_name = fullfill(start_path, 'l', [int2str(n),'.txt']);
+    right_name = fullfill(start_path, 'r', [int2str(n),'.txt']);
+    [lnode,lelem]=readoff(left_name);
+    [rnode,relem]=readoff(right_name);
+    node = [lnode, ]
+    output_name = fullfill(start_path, [int2str(n),'.txt']);
+    writeOFF(output_name,vertex',face');
+    toc
+end
