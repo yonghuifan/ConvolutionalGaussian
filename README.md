@@ -1,4 +1,4 @@
-Gaussian Process based Landmarking
+Convolutional bayesian models for anatomical landmarking on multi-dimensional shapesGaussian Process based Landmarking (MICCAI2020)
 By Yonghui Fan, -7/30/2022
 
 landmark_<dataset name>.m is the code for landmarking of certain datasets.
